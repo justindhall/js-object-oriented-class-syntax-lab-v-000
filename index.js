@@ -1,7 +1,7 @@
 class BoardMember{
-    constructor(name, homestate, training){
+    constructor(name, homeState, training){
       this.name = name;
-      this.homestate = homestate;
+      this.homeState = homeState;
       this.training = training;
     }
     
@@ -22,7 +22,7 @@ class BoardMember{
     }
     
     sayHi(){
-      return `Hi, my name is ${this.name}. I am from ${homestate}, and I was trained in ${training}.`
+      return `Hi, my name is ${this.name}. I am from ${homeState}, and I was trained in ${training}.`
     }
 }
 
